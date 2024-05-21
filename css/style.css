@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+h1{
+    color: red;
+}
+h2{
+    align-self: center;
+}
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+}
+img{
+    max-width: 100%;
+    align-self: center;
+}
+.namelogo img{
+    width: 100%;
+    height: 100px;
+}
+/* REDES SOCIALES */
+.containerRedes{
+    display: flex;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+.containerRedes ul li{
+    display: inline-block;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.containerRedes ul li a{
+    display: block;
+    background: gray;
+    color: white;
+    font-size: 30px;
+    line-height: 48px;
+    transition: 0.2s;
+}
+.containerRedes ul:hover a{
+    filter: blur(3px);
+}
+.containerRedes ul li a:hover{
+    filter: none;
+    transform: scale(1.2);
+    transition: .6s;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 40);
+    
+}
+.containerRedes ul li .facebookLink:hover{
+    background: cornflowerblue;
+    border-radius: 55%;
+}
+.containerRedes ul li .twitterLink:hover{
+    background: #3f9cf3;
+    border-radius: 55%;
+}
+.containerRedes ul li .instagramLink:hover{
+    background: radial-gradient(circle at 30% 110%, #ffdb8b, #ffdb8b 0%, #ee653d 25%, #d42e81 50%, #a237b6 75%, #3e5fbc 100%);
+    border-radius: 55%;
+}
+
+/* ICONO DEL CARRITO */
+.containerIcon{
+    position: relative;
+}
+.IconCart{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.countProduct{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 27%;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
